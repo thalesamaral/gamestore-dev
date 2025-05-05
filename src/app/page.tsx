@@ -6,5 +6,5 @@ const HomePage: FC = () => {
 
 export default HomePage;
 
-//  http://localhost:3000/fsw-food
-//  http://localhost:3000/fsw-food/menu?consumptionMethod=dine_in
+//  http://localhost:3000/gamestore
+//  http://localhost:3000/gamestore/menu?consumptionMethod=dine_in
