@@ -1,3 +1,28 @@
+# Gamestore
+
+### TODO List
+
+- [ ] Página do Administrador
+  - Gestão de estoque (CRUD)
+- [ ] Authentication with AuthJS
+- [ ] Finalizar o pedido contatando o WhatsApp do vendedor
+
+### Setup
+
+- inicialize o projeto com o `npm install`
+- adicione o arquivo `.env` apontando para o PostgreSQL local
+  ```bash
+  DATABASE_URL="postgresql://postgres:YOURPASSWORD@localhost:5432/YOURDATABASE"
+  DIRECT_URL="postgresql://postgres:YOURPASSWORD@localhost:5432/YOURDATABASE"
+  ```
+- execute o banco com o comando `npx prisma migrate dev`
+- inicie a aplicação com o comando `npm run dev`
+- abrir em [http://localhost:3000/gamestore](http://localhost:3000/gamestore)
+<hr>
+<hr>
+<br>
+
+# Next.js
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
